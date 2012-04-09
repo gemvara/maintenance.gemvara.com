@@ -1,0 +1,3 @@
+[submodule "extensions/gemv/stylesheets"]
+	path = extensions/gemv/stylesheets
+	url = git@github.com:gemvara/gemv.git
