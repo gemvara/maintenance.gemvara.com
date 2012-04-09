@@ -2,9 +2,32 @@
 %html
     %head
         %title Gemvara Maintenance
-        %style{:src => 'stylesheets/screen.css'}
+        %link{:href => 'stylesheets/screen.css', :rel => 'stylesheet'}
         %script{:src => 'http://use.typekit.com/vka4ibh.js'}
         %script try{Typekit.load();}catch(e){}
-
     %body
-        %h1 Hello!
+        %div{:class => 'container'}
+            %div{:class => 'row'}
+                %img{:src => 'img/logo.png', 'width' => 259, 'height' => 34, 'alt' => 'Gemvara', :id => 'logo'}
+            %div{:class => 'row franz'}
+                %div{:class => 'span4'}
+                    %h1 I'm Sorry.
+                    %p
+                        We are temporarily down for maintenance from approximately
+                        %strong
+                            12am-3am EST.
+                %div{:class => 'span4'}
+                    &nbsp;
+                %div{:class => 'span4 text-right'}
+                    %h1 Not to worry...
+                    %p
+                        Our best humans are standing by if you need us now:
+                        %br
+                        %a{:href => 'customer-care@gemvara.com'}
+                            customer-care@gemvara.com
+                        or
+                        %br
+                        %strong
+                            1-800-436-8803.
+        %div{:id => 'footer'}
+            While you’re waiting, here are more ways to explore…

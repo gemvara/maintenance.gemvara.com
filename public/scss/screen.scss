@@ -1,5 +1,47 @@
 @import "gemv/bootstrap";
 
+.container {
+    @include container-fixed()
+}
+
+@include gridSystem-generate;
+
 body {
-    background: $greyLight URL($backgroundNoise) repeat;
+    background: darken($greyLight, 5%) url($backgroundNoise) repeat;
+    @include font-sans-serif(20px, normal, 30px);
+    color: #727272;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    @include font-serif(36px, bold, 45px);
+    color: #3BBBED;
+}
+
+.franz {
+    background: transparent url('/img/franz.png') 50% top no-repeat;
+    height: 410px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+a {
+    @include link-colors(#3BBBED, #3BBBED, #3BBBED, #3BBBED, #3BBBED);
+}
+
+#logo {
+    margin: 0 auto;
+    display: block;
+    padding: 30px 0;
+}
+
+#footer {
+    width: 100%;
+    background: rgba(0, 0, 0, .05);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000050,endColorstr=#99000050);
+    text-align: center;
+    padding: 10px 0 20px;
 }
