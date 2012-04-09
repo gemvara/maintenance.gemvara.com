@@ -1,0 +1,79 @@
+/*
+Syntax error: File to import not found or unreadable: gemv/bootstrap.
+              Load paths:
+                /Users/mlebarron/code/maintenance/scss
+                /Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/compass-0.12.1/frameworks/blueprint/stylesheets
+                /Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/compass-0.12.1/frameworks/compass/stylesheets
+                /Users/mlebarron/code/maintenance/extensions/gemv/stylesheets
+                Compass::SpriteImporter
+        on line 1 of /Users/mlebarron/code/maintenance/scss/screen.scss
+
+1: /Users/mlebarron/code/maintenance/scss/screen.scss
+
+Backtrace:
+/Users/mlebarron/code/maintenance/scss/screen.scss:1
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/sass-3.1.15/lib/sass/../sass/tree/import_node.rb:64:in `import'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/sass-3.1.15/lib/sass/../sass/tree/import_node.rb:25:in `imported_file'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:149:in `visit_import'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:27:in `visit_children'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:39:in `with_environment'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:26:in `visit_children'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:47:in `visit_root'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:7:in `send'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/sass-3.1.15/lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/sass-3.1.15/lib/sass/../sass/tree/root_node.rb:20:in `render'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/sass-3.1.15/lib/sass/../sass/engine.rb:299:in `_render'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/sass-3.1.15/lib/sass/../sass/engine.rb:246:in `render'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/compass-0.12.1/lib/compass/compiler.rb:140:in `compile'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/compass-0.12.1/lib/compass/compiler.rb:126:in `timed'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/compass-0.12.1/lib/compass/compiler.rb:139:in `compile'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/compass-0.12.1/lib/compass/logger.rb:45:in `red'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/compass-0.12.1/lib/compass/compiler.rb:138:in `compile'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/compass-0.12.1/lib/compass/compiler.rb:118:in `compile_if_required'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/compass-0.12.1/lib/compass/compiler.rb:103:in `run'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/compass-0.12.1/lib/compass/compiler.rb:101:in `each'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/compass-0.12.1/lib/compass/compiler.rb:101:in `run'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/compass-0.12.1/lib/compass/compiler.rb:126:in `timed'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/compass-0.12.1/lib/compass/compiler.rb:100:in `run'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/compass-0.12.1/lib/compass/commands/watch_project.rb:147:in `recompile'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/compass-0.12.1/lib/compass/commands/watch_project.rb:95:in `perform'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/fssm-0.2.8.1/lib/fssm/path.rb:73:in `call'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/fssm-0.2.8.1/lib/fssm/path.rb:73:in `run_callback'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/fssm-0.2.8.1/lib/fssm/path.rb:55:in `callback_action'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/fssm-0.2.8.1/lib/fssm/path.rb:39:in `delete'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/fssm-0.2.8.1/lib/fssm/state/directory.rb:32:in `deleted'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/fssm-0.2.8.1/lib/fssm/state/directory.rb:31:in `each'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/fssm-0.2.8.1/lib/fssm/state/directory.rb:31:in `deleted'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/fssm-0.2.8.1/lib/fssm/state/directory.rb:16:in `refresh'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/fssm-0.2.8.1/lib/fssm/backends/polling.rb:17:in `run'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/fssm-0.2.8.1/lib/fssm/backends/polling.rb:17:in `each'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/fssm-0.2.8.1/lib/fssm/backends/polling.rb:17:in `run'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/fssm-0.2.8.1/lib/fssm/backends/polling.rb:15:in `loop'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/fssm-0.2.8.1/lib/fssm/backends/polling.rb:15:in `run'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/fssm-0.2.8.1/lib/fssm/monitor.rb:26:in `run'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/fssm-0.2.8.1/lib/fssm.rb:70:in `monitor'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/compass-0.12.1/lib/compass/commands/watch_project.rb:87:in `perform'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/compass-0.12.1/lib/compass/commands/base.rb:18:in `execute'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/compass-0.12.1/lib/compass/commands/project_base.rb:19:in `execute'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/compass-0.12.1/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/compass-0.12.1/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/compass-0.12.1/bin/compass:29
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/compass-0.12.1/bin/compass:43:in `call'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/compass-0.12.1/bin/compass:43
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/bin/compass:19:in `load'
+/Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/bin/compass:19
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: gemv/bootstrap.\A               Load paths:\A                 /Users/mlebarron/code/maintenance/scss\A                 /Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/compass-0.12.1/frameworks/blueprint/stylesheets\A                 /Users/mlebarron/.rvm/gems/ruby-1.8.7-p358/gems/compass-0.12.1/frameworks/compass/stylesheets\A                 /Users/mlebarron/code/maintenance/extensions/gemv/stylesheets\A                 Compass::SpriteImporter\A         on line 1 of /Users/mlebarron/code/maintenance/scss/screen.scss\A \A 1: /Users/mlebarron/code/maintenance/scss/screen.scss"; }
