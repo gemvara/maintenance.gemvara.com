@@ -15,8 +15,9 @@ body {
 }
 
 h1 {
-    @include font-serif(36px, bold, 45px);
+    @include font-serif(36px, normal, 45px);
     color: #3BBBED;
+    margin: 40px 0 0 0;
 }
 
 .franz {
@@ -48,4 +49,9 @@ a {
 
 .hide-text {
     @include hide-text;
+}
+
+p {
+    padding: 0;
+    margin: 0;
 }
