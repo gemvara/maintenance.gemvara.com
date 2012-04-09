@@ -44,8 +44,9 @@ a {
     background: rgba(0, 0, 0, .05);
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000050,endColorstr=#99000050);
     text-align: center;
-    padding: 10px 0 20px;
+    padding: 10px 0 30px;
     font-size: 18px;
+    position: relative;
 }
 
 .hide-text {
@@ -55,4 +56,31 @@ a {
 p {
     padding: 0;
     margin: 0;
+}
+
+#share {
+    position: absolute;
+    left: 50%;
+    top: 41px;
+    margin-left: -87px;
+
+    a {
+        display: inline-block;
+        height: 35px;
+        width: 35px;
+        margin: 10px;
+        background: transparent url(/img/share.png) 0 0 no-repeat;
+    }
+
+    #pinterest {
+        background-position: 0 0;
+    }
+
+    #facebook {
+        background-position: -50px 0;
+    }
+
+    #twitter {
+        background-position: -102px 0;
+    }
 }
