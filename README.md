@@ -1,5 +1,4 @@
 Gemvara Maintenance Page
-========================
+------------------------
 
-Starring Franz!
----------------
+### Starring Franz!
