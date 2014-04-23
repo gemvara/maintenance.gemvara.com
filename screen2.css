@@ -1,0 +1,76 @@
+body{
+font-family:helvetica;
+}
+
+#maintenance-page-container{
+	width:970px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -8px;
+	background-image:url('/background-2.jpg');
+	height: 800px;
+}
+
+#maintenance-page-content-container{
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:140px;
+	width: 700px;
+}
+
+#maintenance-page-logo-container{
+	margin-left:auto;
+	margin-right:auto;
+	width: 330px;
+}
+
+#maintenance-page-text-container{
+	margin-top:50px;
+	font-size: 18px; 
+	text-align:center;
+	width: 500px;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+#maintenance-page-contact-container{
+	margin-top:50px;
+	text-align:center;
+	width: 370px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#maintenance-page-contact-header{
+	color: #3aabcc;
+	font-style:italic;
+	font-size:20px;
+	font-weight: bold;
+}
+
+#maintenance-page-contact-details{
+margin-top:-12px;
+}
+
+
+#maintenance-page-contact-details a{
+	color: #3aabcc;
+	font-weight: bold;	
+}
+
+#maintenance-page-share-container{
+	margin-top: 35px;
+	margin-left:auto;
+	margin-right:auto;
+	width:357px;
+	font-size:14px;
+	font-family: Helvetica;
+}
+
+#maintenance-page-share-container ul{
+	list-style:none;
+}
+
+#maintenance-page-share-container li{
+	float:left;
+}
